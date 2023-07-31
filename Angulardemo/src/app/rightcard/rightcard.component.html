@@ -1,1 +1,31 @@
 <p>rightcard works!</p>
+<h2>{{directive}}</h2>
+
+<h4>{{ngfor}}</h4>
+<ul *ngFor="let i of frontendcourse">
+    <li>{{i}}</li>
+</ul>
+
+<div>
+<h4>{{ngswitchcase}}</h4>
+<input type="text" [(ngModel)]="choice" >
+
+
+<span [ngSwitch]="choice">
+
+   <span *ngSwitchCase="1">one</span>
+   <span *ngSwitchCase="2">two</span>
+
+   <span *ngSwitchCase="3">three</span>
+   
+   <span *ngSwitchDefault>default mode</span>
+
+
+</span><br>
+<h4>{{ngif}}</h4>
+<input type="text" [(ngModel)]="check">
+<p *ngIf="check<=50;else block">young person</p>
+<ng-template #block>
+    <p>older person</p>
+</ng-template>
+</div>
