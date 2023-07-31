@@ -7,10 +7,16 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import {MatGridListModule} from '@angular/material/grid-list';
+import { LeftcardComponent } from './leftcard/leftcard.component';
+import { RightcardComponent } from './rightcard/rightcard.component';
+import { FullcardComponent } from './fullcard/fullcard.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LeftcardComponent,
+    RightcardComponent,
+    FullcardComponent
   ],
 
   imports: [
