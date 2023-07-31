@@ -3,3 +3,21 @@ mat-grid-tile {
   }
   
 
+  .card{
+    height:750px;
+    width: 710px;
+  }
+
+  .leftcard{
+
+    height: 350px;
+    width: 710px;
+
+  }
+
+  .rightcard{
+
+    height: 350px;
+    width: 710px;
+
+  }
