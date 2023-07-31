@@ -1,1 +1,14 @@
 <p>leftcard works!</p>
+
+<h2>
+{{title}}
+</h2>
+<h4>{{stringinterpo}}</h4>
+<input type="text" [value]="property">
+<br><br>
+<button (click)="eventbinding()" mat-raised-button color="primary" >event binding</button>
+<br>
+<br>
+<h2>{{twoway}}</h2>
+<input type="text" [(ngModel)]="twowaybinding">
+<p>{{twowaybinding}}</p>
