@@ -10,6 +10,9 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import { LeftcardComponent } from './leftcard/leftcard.component';
 import { RightcardComponent } from './rightcard/rightcard.component';
 import { FullcardComponent } from './fullcard/fullcard.component';
+import {MatButtonModule} from '@angular/material/button';
+import { FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -21,7 +24,7 @@ import { FullcardComponent } from './fullcard/fullcard.component';
 
   imports: [
     BrowserModule,
-    AppRoutingModule,MatCardModule,MatToolbarModule,MatIconModule,MatDatepickerModule,MatGridListModule
+    AppRoutingModule,MatCardModule,MatToolbarModule,MatIconModule,MatDatepickerModule,MatGridListModule,MatButtonModule,FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
