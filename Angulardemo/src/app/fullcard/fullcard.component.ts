@@ -7,6 +7,12 @@ import { Component } from '@angular/core';
 })
 export class FullcardComponent {
 
+attributedir:string='Attribute directive ( ngClass , ngStyle )';
+enable=false;
+pipes:string='Pipes';
 
+sample:string='hello world';
+
+quotes:string='Welcome to Angular class';
 
 }

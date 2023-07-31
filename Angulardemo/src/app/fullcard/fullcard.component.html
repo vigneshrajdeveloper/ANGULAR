@@ -1,1 +1,7 @@
 <p>fullcard works!</p>
+<h2>{{attributedir}}</h2>
+<input type="checkbox" [(ngModel)]="enable">
+<h3 [ngClass]="{'colouring':enable}">Hello ,World</h3>
+<br>
+<h2>{{pipes}}</h2>
+{{sample|uppercase}} {{quotes|uppercase|slice:10:18}}
